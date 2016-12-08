@@ -3,17 +3,17 @@
   <application />
   <orchestrator />
   <deployables>
-    <file.Archive name="/demo-archive" file="/demo-archive/loadbalancer-plugin-6.0.0-distribution.zip">
+    <file.Archive name="/demo-archive" file="/demo/loadbalancer-plugin-6.0.0-distribution.zip">
       <tags />
       <scanPlaceholders>false</scanPlaceholders>
       <checksum>ae6877f02e0279c64adaa2c44f405bd4dac8b586</checksum>
     </file.Archive>
-    <file.File name="/demo-file" file="/demo-file/Screen Shot 2016-11-22 at 11.13.01 pm.png">
+    <file.File name="/demo-file" file="/demo/Screen Shot 2016-11-22 at 11.13.01 pm.png">
       <tags />
       <scanPlaceholders>true</scanPlaceholders>
       <checksum>887e4536ae9bb73767f68e88d251cf6f91e8a4ae</checksum>
     </file.File>
-    <file.Folder name="/demo-folder" file="/demo-folder/bigip-plugin-6.0.0-distribution.zip">
+    <file.Folder name="/demo-folder" file="/demo/bigip-plugin-6.0.0-distribution.zip">
       <tags />
       <scanPlaceholders>true</scanPlaceholders>
       <checksum>2d5746b66909b72dc7753c85a9f2edad49212eeb</checksum>
