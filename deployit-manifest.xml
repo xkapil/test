@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<udm.DeploymentPackage version="1.0" application="demo">
+  <application />
+  <orchestrator />
+  <deployables>
+    <file.Archive name="/demo-archive" file="/demo-archive/loadbalancer-plugin-6.0.0-distribution.zip">
+      <tags />
+      <scanPlaceholders>false</scanPlaceholders>
+      <checksum>ae6877f02e0279c64adaa2c44f405bd4dac8b586</checksum>
+    </file.Archive>
+    <file.File name="/demo-file" file="/demo-file/Screen Shot 2016-11-22 at 11.13.01 pm.png">
+      <tags />
+      <scanPlaceholders>true</scanPlaceholders>
+      <checksum>887e4536ae9bb73767f68e88d251cf6f91e8a4ae</checksum>
+    </file.File>
+    <file.Folder name="/demo-folder" file="/demo-folder/bigip-plugin-6.0.0-distribution.zip">
+      <tags />
+      <scanPlaceholders>true</scanPlaceholders>
+      <checksum>2d5746b66909b72dc7753c85a9f2edad49212eeb</checksum>
+    </file.Folder>
+    <cmd.Command name="/cmd">
+      <tags />
+      <commandLine>ls</commandLine>
+      <order>50</order>
+      <dependencies />
+      <undoOrder>49</undoOrder>
+      <undoDependencies />
+      <runUndoCommandOnUpgrade>true</runUndoCommandOnUpgrade>
+    </cmd.Command>
+  </deployables>
+  <applicationDependencies />
+  <dependencyResolution>LATEST</dependencyResolution>
+  <undeployDependencies>false</undeployDependencies>
+</udm.DeploymentPackage>
