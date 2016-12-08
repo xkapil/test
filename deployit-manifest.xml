@@ -13,11 +13,6 @@
       <scanPlaceholders>true</scanPlaceholders>
       <checksum>887e4536ae9bb73767f68e88d251cf6f91e8a4ae</checksum>
     </file.File>
-    <file.Folder name="/demo-folder" file="/demo/bigip-plugin-6.0.0-distribution.zip">
-      <tags />
-      <scanPlaceholders>true</scanPlaceholders>
-      <checksum>2d5746b66909b72dc7753c85a9f2edad49212eeb</checksum>
-    </file.Folder>
     <cmd.Command name="/cmd">
       <tags />
       <commandLine>ls</commandLine>
